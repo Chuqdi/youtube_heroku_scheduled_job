@@ -1,4 +1,4 @@
-
+import time
 
 
 def runner():
@@ -7,4 +7,6 @@ def runner():
 
 
 
-runner()
+while True:
+    time.sleep(2)
+    runner()
